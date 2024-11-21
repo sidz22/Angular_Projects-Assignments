@@ -1,0 +1,5 @@
+<h1>Data from Child Component:</h1>
+<p>{{ receivedData }}</p>
+<app-child (sendToParent)="receiveData($event)"></app-child>
+
+<router-outlet />

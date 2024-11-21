@@ -10,4 +10,9 @@ import { Component } from '@angular/core';
 export class NewCompComponent 
 {
   public Name = "Marvellous";
+
+  DemoFun()
+  {
+    return "Infosystems";
+  }
 }

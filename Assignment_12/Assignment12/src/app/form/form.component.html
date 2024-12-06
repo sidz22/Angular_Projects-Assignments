@@ -1,0 +1,57 @@
+<div class="contact-section">
+  <div class="text-container">
+    <h2>Contact Our</h2>
+    <h1>Customer Support Center</h1>
+  </div>
+  <div class="image-container">
+    <img src="\laptop.png" alt="Laptop Image" />
+  </div>
+</div>
+
+<div class="contact-info">
+  <h3>Contact Information</h3>
+  <p>Please fill out your contact information below.</p>
+</div>
+
+    <!-- Form Section -->
+    <form>
+    <!-- Name Field -->
+    <div class="mb-3">
+        <label for="firstName" class="form-label">Name <span class="text-danger">*</span></label>
+        <div class="row">
+        <!-- First Name Input -->
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name" required />
+            <small class="form-text text-muted">First Name</small>
+        </div>
+    
+        <!-- Last Name Input -->
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name" required />
+            <small class="form-text text-muted">Last Name</small>
+        </div>
+        </div>
+    </div>
+    
+  
+      <!-- Email Field -->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+      </div>
+  
+      <!-- Phone Field -->
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone <span class="text-danger">*</span></label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required />
+      </div>
+  
+      <!-- Address Field -->
+      <div class="mb-3">
+        <label for="address" class="form-label">Address <span class="text-danger">*</span></label>
+        <textarea class="form-control" id="address" rows="3" placeholder="Enter your address" required></textarea>
+      </div>
+  
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>  
